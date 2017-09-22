@@ -1,0 +1,87 @@
+.container{
+    flex:1
+}
+  .header{
+    background-color: #E91E63;
+    text-align  : center;
+    align-items : center;
+    justify-content : center;
+    border-bottom-width: 10px;
+    border-bottom-color: #ddd;
+}
+.scrollContainer{
+  flex         : 1;
+  margin-bottom : 100px;
+}
+.headerText{
+    color       : white;
+    font-size   : 20px;
+    padding     : 26px,
+}
+
+  .footer{
+    position   :  absolute;
+    text-align  : center;
+    align-items : center;
+    bottom     :  0px;
+    left       :  0px;
+    right      :  0px;
+}
+
+  .addButton{
+    background-color  : #E91E63;
+    width             : 90px;
+    height            : 90px;
+    border-radius     : 50px;
+    border-color      : #ccc;
+    text-align        : center;
+    align-items       : center;
+    justify-content   : center;
+    margin-bottom     : -45px;
+    z-index           : 10;
+}
+
+  .addButtonText{
+    color      :  #fff;
+    font-size  :  24px;
+}
+
+  .TextInput{
+    align-self :  stretch;
+    color      : #fff;
+    padding    : 20px;
+    padding-top : 46px;
+    background-color : #252525;
+    border-top-width  : 2px;
+    border-top-color  : #ededed;
+}
+
+.note{
+  position : relative;
+  /* padding  : 20px; */
+  padding-right : 100px;
+  border-bottom-width : 2px;
+  border-bottom-color : #ededed;
+}
+
+.noteText{
+  padding-left     : 20px;
+  border-left-width  : 10px;
+  border-left-color  : #E91E63;
+  margin-top: 0px;
+}
+
+.noteDelete{
+  position: absolute;
+  justify-content : center;
+  text-align       : center;
+  align-items      : center;
+  background-color : #2980b9;
+  padding : 10px;
+  top     : 10px;
+  bottom  : 10px;
+  right   : 10px;   
+}
+.noteDeleteText{
+  color :white;
+}
